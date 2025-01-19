@@ -74,10 +74,11 @@
 
 
 
+// src/app/(dashboard)/page.tsx
 "use client";
 import Cards from "@/components/Cards";
 import Navbar from "@/components/Navbar";
-import { EmpDataProps } from "@/types/types";
+import { EmpDataProps } from "@/types/types";  // Type import karte hain
 import axios from "axios";
 import { useEffect, useState } from "react";
 
